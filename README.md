@@ -8,7 +8,7 @@ Utilize algum sistema Live para boot no servidor.
 
 Você pode gravar o FreeDOS em um pendriver utilizando o próprio Rufus.
 
-(Imagens/rufus-freedos.png)
+![Title](Imagens/rufus-freedos.png)
 
 Após gravação do FreeBSD, jogue os arquivos do utilitário IPMI CFG na raiz do pendriver.
 
