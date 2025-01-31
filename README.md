@@ -16,6 +16,8 @@ IPMI CFG SuperMicro: https://www.supermicro.com/SwDownload/SwSelect_Free.aspx
 
 *OBS: Se a Firmware do Servidor for antigo, utilize a primeira versão do IPMI_CFG.*
 
+Releases IPMI CFG:https://www.supermicro.com/wdl/utility/IPMICFG/Previous%20Releases/
+
 *2º - Configurando o Servidor*
 
 Acesse o menu de boot com F11 e inicie o Pendriver para iniciar o FreeDOS.
@@ -30,7 +32,7 @@ ipmicfg –fde
 
 Espere por 1 minuto e desligue os cabos de energia. O IPMI irá ser restaurado para os padrões de fábrica.
 
-(Imagens/rufus.png)
+![Title](Imagens/rufus.png)
 
 ----------------------------------------------------------
 
@@ -46,7 +48,7 @@ ipmicfg –m IP
 ipmicfg -k MAC
 ```
 
-(Imagens/reset.png)
+![Title](Imagens/reset.png)
 
 Também é possível efetuar o reset utilizando outros S.O Live, exemplo: Linux, Windows Live, você pode utilizar alguma .Iso do Hiren's Boot ou DLC Boot...
 
@@ -95,5 +97,5 @@ ipmicfg.exe -fan
 
 ```
 
-(Imagens/fan.png)
+![Title](Imagens/fan.png)
 
